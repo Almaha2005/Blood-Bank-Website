@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!-- Page Metadata and Title -->
+    <meta charset="UTF-8">
+    <title>About Us - Blood Bank</title>
+    
+    <!-- External CSS Stylesheet Link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Main Header Section -->
+    <header>
+        <h1>Blood Bank - Pulse of Life</h1>
+        
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="search.html">Search Blood</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- System Description Section -->
+        <section>
+            <h2 id="aboutTitle" onclick="changeTitleColor()">
+               About the System
+            </h2>
+            <p>A digital humanitarian platform aimed at facilitating the blood donation process and connecting donors with those in need quickly and efficiently, ensuring prompt access to assistance and saving lives.</p>
+        </section>
+
+        <!-- Project Team & Project Motivation Section -->
+        <section>
+            <h2>The Team</h2>
+            <p>This system was developed with dedication and care by the students: Danah Almutairi and Almaha Alkhashan, Information Systems students.</p>
+            <p>We chose to develop this system out of a sense of social responsibility and a keenness to provide a technical solution that helps people and facilitates blood donation procedures with ease and convenience, following the approach and initiatives of His Royal Highness Crown Prince Mohammed bin Salman -may God protect him- in humanitarian work and community service.</p>
+        </section>
+
+        <!-- Image Mapping Section -->
+         <section>
+         <figure>
+         <img src="images/Donation.jpeg"
+           alt="Blood Donation"
+           id="donationImage"
+           width="400"
+           onclick="changeImageBorder()"
+           onmouseover="changeImageBorder()">
+         <figcaption>
+            Every blood donation can help save lives.
+         </figcaption>
+         </figure>
+            <map name="donate-map">
+                <area shape="rect" coords="0,0,400,400" href="about.html" alt="About Us">
+            </map>
+        </section>
+        <details>
+        <summary>
+         Learn More About Our Mission
+        </summary>
+        <p>
+         Pulse of Life connects blood donors with
+         patients in need quickly and efficiently.
+        </p>
+    </details>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
